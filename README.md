@@ -154,6 +154,9 @@ c) UI shows:
 
 - Fallback Mode → If AudioWorklet fails, fallback to ScriptProcessorNode (higher latency).
 
+### 🎥 Screen Recording  
+A screen recording of the application in action has been added for better understanding.  
+
 ### 🙌 Credits
 
 - Powered By: Google Gemini Live API
