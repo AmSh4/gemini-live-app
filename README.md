@@ -90,12 +90,12 @@ You should see:
 
 *Open browser → http://localhost:3000*
 
-6. Grant Microphone Permissions
+### 6. Grant Microphone Permissions
 
 Allow microphone access when prompted.
 If issues → check browser microphone settings.
 
-### 📂 Folder Structure
+## 📂 Folder Structure
         gemini-live-app/
         ├── public/                # Static files served by Express
         │   ├── index.html         # Main HTML page with UI
@@ -106,8 +106,8 @@ If issues → check browser microphone settings.
         ├── package.json           # Project metadata & dependencies
         └── server.js              # Backend with Express, WS, Gemini API
 
-### 🎮 Usage
-#### Running the App
+## 🎮 Usage
+### Running the App
 
 a) Start server with *npm start*
 
@@ -119,7 +119,7 @@ c) UI shows:
 - Transcript area
 - Start Talking button 🎙️
 
-#### Interacting
+### Interacting
 
 - Start: Click "Start Talking" → Speak (e.g., "Tell me about Revolt Motors' latest bike")
 
@@ -127,11 +127,11 @@ c) UI shows:
 
 - Stop: Click "Stop Talking"
 
-#### Theming
+### Theming
 
-- AI is restricted to Revolt Motors topics only
+- AI is restricted to Revolt Motors topics only.
 
-### 🛠️ Development Tips
+## 🛠️ Development Tips
 
 - Model Switching: Default = gemini-2.5-flash-preview-native-audio-dialog.
 - For production, use stable model: gemini-2.5-flash-preview.
@@ -142,7 +142,7 @@ c) UI shows:
 
 - Customization: Edit systemInstruction in server.js.
 
-### ❗ Troubleshooting
+## ❗ Troubleshooting
 
 - Quota Exceeded → Regenerate API key or upgrade Google AI plan.
 
@@ -154,12 +154,12 @@ c) UI shows:
 
 - Fallback Mode → If AudioWorklet fails, fallback to ScriptProcessorNode (higher latency).
 
-### 🎥 Screen Recording  
+## 🎥 Screen Recording  
 - A screen recording of the application in action has been added for better understanding.
   
          https://github.com/AmSh4/gemini-live-app/blob/main/VID-20250825-WA0011.mp4
 
-### 🙌 Credits
+## 🙌 Credits
 
 - Powered By: Google Gemini Live API
 
