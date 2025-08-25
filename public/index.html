@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Rev</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Talk to Rev</h1>
+            <p>Revolt Motors AI Assistant</p>
+        </header>
+
+        <main>
+            <div id="status-container">
+                <div id="status-light" class="idle"></div>
+                <p id="status-text">Click the button to start talking</p>
+            </div>
+            
+            <div id="response"></div>
+
+            <button id="talk-button">
+                <svg id="mic-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line></svg>
+                <span id="button-text">Start Talking</span>
+            </button>
+        </main>
+
+        <footer>
+            <p>Powered by Revolt Motors and Gemini Live API</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
