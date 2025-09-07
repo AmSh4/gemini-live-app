@@ -75,8 +75,6 @@ Create a *.env* file in project root:
       GEMINI_API_KEY=your-api-key-here
 
 
-⚠️ Security Tip: Never commit *.env* to **GitHub**. Add it to *.gitignore*.
-
 ### 5. Start the Server
 
 Run:
